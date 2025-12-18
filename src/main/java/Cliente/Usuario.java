@@ -8,9 +8,9 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Usuario{
-    public static final int  puerto=12345;
+    public static final int  puerto=50000;
     public static Socket socket;
-   public static String ipServer= "34.236.154.196";
+   public static String ipServer= "18.206.210.173";
     public static void main(String args[]) throws IOException {
         socket= new Socket(ipServer,puerto);
         BufferedReader in= new BufferedReader(new InputStreamReader(socket.getInputStream()));

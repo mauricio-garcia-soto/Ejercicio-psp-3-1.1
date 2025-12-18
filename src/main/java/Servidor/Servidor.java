@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Servidor {
- public static final int puerto =12345;
+ public static final int puerto =50000;
 public static ServerSocket server;
 public static void main(String args[]) throws IOException {
     server= new ServerSocket(puerto);
