@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Usuario{
     public static final int  puerto=12345;
     public static Socket socket;
-   public static String ipServer= "34.236.154.196";
+   public static String ipServer= "44.221.64.116";
     public static void main(String args[]) throws IOException {
         socket= new Socket(ipServer,puerto);
         BufferedReader in= new BufferedReader(new InputStreamReader(socket.getInputStream()));
